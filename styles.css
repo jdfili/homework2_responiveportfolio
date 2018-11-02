@@ -261,7 +261,7 @@ footer {
 /* media queries */
 
 @media screen and (max-width: 988px) {
-
+    
     .name {
         left:60px;
     }
@@ -271,6 +271,12 @@ footer {
         height: 560px;
         margin-left: 60px;
 
+    }
+
+    .portfolio-container {
+        width: 685px;
+        height: 560px;
+        margin-left: 60px;
     }
 
     .container {
@@ -293,6 +299,34 @@ footer {
         height: 150px;
     }
 
+    .box {
+        float: left;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .box-1 {
+        top:0px;
+        left:10%;
+    }
+    
+    .box-2 {
+        top:210px;
+        right:151px;
+    }
+    
+    .box-3 {
+        top:210px;
+        left: -108px;
+        
+    }
+    
+    .box-4 {
+        bottom: 223px;
+        left: 332px;
+    }
+    
+    
 }
 @media screen and (max-width: 768px) {
     
@@ -313,6 +347,11 @@ footer {
         margin-left: 123px;
     }
 
+    .portfolio-container {
+        width: 540px;
+        height:  581px;
+        margin-left: 123px;
+    }
 
 
     .container {
@@ -322,7 +361,7 @@ footer {
     }
 
     .links {
-        left: 308px;
+        left: 460px;
     }
 
     .contact_links {
@@ -347,13 +386,37 @@ footer {
     footer {
         width: 844px;
     }
+
+    .box {
+        float: left;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .box-1 {
+        top:0px;
+        left:5%;
+    }
+    
+    .box-2 {
+        top:210px;
+        right:192px;
+    }
+    
+    .box-3 {
+        top:-14px;
+        left: 251px;
+        
+    }
+    
+    .box-4 {
+        bottom: 225px;
+        left: 30px;
+    }
 }
 
     @media screen and (max-width:640px){
-    /* body {
-        background: red;
-    } */
-   
+    
     .links {
         position: relative;
         left: 150px;
@@ -368,6 +431,11 @@ footer {
     }
 
     .form-container{
+        margin-left: 45px;
+        width: 500px;
+    }
+
+    .portfolio-container {
         margin-left: 45px;
         width: 500px;
     }
@@ -388,6 +456,33 @@ footer {
 
     footer {
         width: 640px;
+    }
+
+    .box {
+        float: left;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .box-1 {
+        top:0px;
+        left:5%;
+    }
+    
+    .box-2 {
+        top:210px;
+        right:194px;
+    }
+    
+    .box-3 {
+        top:-15px;
+        left: 250px;
+        
+    }
+    
+    .box-4 {
+        bottom: 224px;
+        left: 30px;
     }
 }
 
