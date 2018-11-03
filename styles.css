@@ -438,6 +438,7 @@ footer {
     .portfolio-container {
         margin-left: 45px;
         width: 500px;
+        height: 1000px;
     }
 
     .container {
@@ -458,31 +459,31 @@ footer {
         width: 640px;
     }
 
-    .box {
-        float: left;
-        padding: 10px;
-        position: relative;
+    .portfolio-content {
+        display: flex;
+       
     }
     
     .box-1 {
-        top:0px;
-        left:5%;
+        top:-10px;
+        left:27%;
     }
     
     .box-2 {
-        top:210px;
-        right:194px;
+        top:199px;
+        right:85px;
     }
     
     .box-3 {
-        top:-15px;
-        left: 250px;
+        top: 617px;
+        left: -305px;
         
     }
     
     .box-4 {
-        bottom: 224px;
-        left: 30px;
+        bottom: -408px;
+        left: -525px;
     }
+
 }
 
